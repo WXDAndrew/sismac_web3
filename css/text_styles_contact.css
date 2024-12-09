@@ -1,0 +1,64 @@
+
+
+
+
+/* body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10%;
+} */
+
+
+.highlight {
+  color: #63b4ff;
+  font-family:"Poppins";
+  font-weight: bold;
+  text-shadow: 
+2px 2px 1px #000000, 
+2px -1px 1px #000000, 
+-1px 1px 1px #000000, 
+-1px -1px 1px #000000, 
+}
+
+.highlight:hover {
+  color: #000000;
+  text-shadow:none;
+}
+
+.highlight.c1:hover {
+  background-color: #D9EDF8;
+}
+.highlight.c2:hover {
+  background-color: #FFADAD;
+}
+.highlight.c3:hover {
+  background-color: #FFD6A5;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.title__dinamic {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3em;
+  font-weight: 100;
+  
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%); */
+  background-image: linear-gradient(rgb(89, 183, 255), rgb(89, 183, 255));
+  background-size: 100% 15px;
+  background-repeat: no-repeat;
+  background-position: 100% -100%;
+   transition: background-size .7s, background-position .5s ease-in-out;
+}
+
+.title__dinamic.t1:hover {
+  background-size: 100% 100%;
+  background-position: 0% 100%;
+  transition: background-position .7s, background-size .5s ease-in-out;
+}
+

@@ -1,0 +1,10 @@
+Este modulo toma los datos registrados en el modulo de inventario para gestionar la identificación de repuestos y insumos por equipos y por actividad lo que facilita la asignación de recursos requeridos para la ejecución de ordenes de trabajo y el calculo preciso de presupuestos. Entre sus funcionalidades están:
+
+
+1. Identificación de materiales/repuestos: Los materiales y repuestos registrados en el inventario están vinculados a una máquina o equipo. También se incluyen las cantidades disponibles de cada ítem.
+
+2. Determinación de equivalencias: El sistema ayuda a identificar equivalencias entre materiales o repuestos, lo que significa que puede sugerir repuestos alternativos o compatibles.
+
+3. Vinculación de despieces: Los despieces o diagramas de las máquinas/equipos están conectados con los materiales o repuestos necesarios para su mantenimiento.
+
+4. Vinculación de tareas de mantenimiento: El sistema asocia las tareas de mantenimiento con los repuestos necesarios, sus cantidades y la información de la bodega donde se encuentran (código, cantidad en existencia, etc.).
