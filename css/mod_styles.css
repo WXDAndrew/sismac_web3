@@ -986,7 +986,7 @@ img.next-btn:hover {
 }
 
 /*Media queries*/
-@media (max-width: 800px) {
+@media (max-width: 1100px) {
     .nav__link--menu {
         position: fixed;
         background-color: #000;
@@ -1218,7 +1218,7 @@ img.next-btn:hover {
 
     .subtitle__module__2 {
         text-align: center;
-        margin-left: -38%;
+        margin-left: -70%;
     }
 
     .subtitle__module__4 {
