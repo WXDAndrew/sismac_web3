@@ -15,6 +15,12 @@
 
     <meta name="theme-color" content="#2091F9">
 
+    <!-- Enlace al archivo CSS de AOS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- Enlace al archivo JavaScript de AOS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
     <!-- Primary Meta Tags -->
     <!-- Primary Meta Tags -->
 
@@ -60,9 +66,10 @@
                 </li>
                 <li class="nav__items">
 
-                    <a href="javascript:void(0)" class="cta__3" onclick="window.open('https://sismac.net/reg/','','width=1100,height=700,noresize')">
+                    <a href="javascript:void(0)" class="cta__3"
+                        onclick="window.open('https://sismac.net/reg/','','width=1100,height=700,noresize')">
                         Regístrese
-                        </a>
+                    </a>
                 </li>
 
                 <img src="./images/close.svg" class="nav__close">
@@ -75,7 +82,7 @@
 
         </nav>
 
-        <section class="hero__container container">
+        <section data-aos="zoom-in" class="hero__container container">
             <div class="hero__column-left">
                 <h1 class="hero__title">SisMAC CMMS Mobile App</h1>
                 <p class="hero__paragraph">Gestione los procesos básicos en sitio como la atención de <b>ordenes de
@@ -98,7 +105,7 @@
 
     <main>
 
-        <section id="tracking__app" class="questions container">
+        <section data-aos="fade-up" id="tracking__app" class="questions container">
             <section class="questions__offer">
                 <figure class="questions__picture__2">
 
@@ -134,8 +141,8 @@
             </section>
         </section>
 
-        <section class="boxes">
-            <section class="container__boxes container">
+        <section  class="boxes">
+            <section data-aos="flip-left" class="container__boxes container">
 
                 <div class="grid-container">
                     <div class="card blue">
@@ -170,7 +177,7 @@
                     gestionar su mantenimiento</h1>
             </section>
 
-            <section class="knowledge">
+            <section data-aos="zoom-in" class="knowledge">
                 <div class="knowledge__container container">
                     <div class="knowledge__texts">
                         <h2 class="subtitle">Registro de información digital</h2>
@@ -188,7 +195,7 @@
                     </figure>
                 </div>
             </section>
-            <section class="knowledge__2">
+            <section data-aos="zoom-in" class="knowledge__2">
                 <div class="knowledge__container container">
                     <figure class="knowledge__picture">
                         <img src="./images/modulos/app/db_movil.png" class="knowledge__img">
@@ -211,7 +218,7 @@
 
 
 
-        <section class="video__container container">
+        <section data-aos="flip-left" class="video__container container">
             <h2 class="subtitle"></h2>
 
             <div class="video-container">
@@ -267,14 +274,15 @@
                 <h2 class="footer__newsletter">Déjanos un mensaje</h2>
                 <div class="footer__inputs">
                     <!-- <input type="email" placeholder="Email:" class="footer__input"> -->
-                    
-                    <a href="javascript:void(0)" class="footer__submit" onclick="window.open('https://sismac.net/reg/','','width=1100,height=700,noresize')">
+
+                    <a href="javascript:void(0)" class="footer__submit"
+                        onclick="window.open('https://sismac.net/reg/','','width=1100,height=700,noresize')">
                         Regístrese
-                        </a>
+                    </a>
                 </div>
             </form>
 
-            
+
 
         </section>
 
@@ -299,6 +307,7 @@
 
     <script src="js/moveinpage_app.js"></script>
     <script src="js/menu.js"></script>
+    <script src="js/main.js"></script>
 
 
 </body>
